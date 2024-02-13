@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-13T23:12:50 EET" name="Default suite" finished-at="2024-02-13T23:13:07 EET" duration-ms="16756">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-02-13T23:12:50 EET" name="Default test" finished-at="2024-02-13T23:13:07 EET" duration-ms="16756">
+      <class name="tests.RegisteredUserCheckoutProductTest">
+        <test-method is-config="true" signature="startWebBrowser()[pri:0, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc]" started-at="2024-02-13T23:12:46 EET" name="startWebBrowser" finished-at="2024-02-13T23:12:50 EET" duration-ms="3703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebBrowser -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc]" started-at="2024-02-13T23:12:50 EET" name="setUpClass" finished-at="2024-02-13T23:12:50 EET" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5eefa415]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="LoginAndAddToCart()[pri:1, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc]" started-at="2024-02-13T23:12:50 EET" name="LoginAndAddToCart" finished-at="2024-02-13T23:12:52 EET" duration-ms="2326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginAndAddToCart -->
+        <test-method is-config="true" signature="screenShotWhenTestFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc]" started-at="2024-02-13T23:12:52 EET" name="screenShotWhenTestFailure" finished-at="2024-02-13T23:12:52 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginAndAddToCart status=SUCCESS method=RegisteredUserCheckoutProductTest.LoginAndAddToCart()[pri:1, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotWhenTestFailure -->
+        <test-method signature="goToCartTest()[pri:2, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc]" started-at="2024-02-13T23:12:52 EET" name="goToCartTest" finished-at="2024-02-13T23:12:54 EET" duration-ms="2068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToCartTest -->
+        <test-method is-config="true" signature="screenShotWhenTestFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc]" started-at="2024-02-13T23:12:54 EET" name="screenShotWhenTestFailure" finished-at="2024-02-13T23:12:54 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToCartTest status=SUCCESS method=RegisteredUserCheckoutProductTest.goToCartTest()[pri:2, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotWhenTestFailure -->
+        <test-method signature="OrderInDetails()[pri:3, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc]" started-at="2024-02-13T23:12:54 EET" name="OrderInDetails" finished-at="2024-02-13T23:12:56 EET" duration-ms="1133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderInDetails -->
+        <test-method is-config="true" signature="screenShotWhenTestFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc]" started-at="2024-02-13T23:12:56 EET" name="screenShotWhenTestFailure" finished-at="2024-02-13T23:12:56 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrderInDetails status=SUCCESS method=RegisteredUserCheckoutProductTest.OrderInDetails()[pri:3, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotWhenTestFailure -->
+        <test-method signature="filTheForm()[pri:4, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc]" started-at="2024-02-13T23:12:56 EET" name="filTheForm" finished-at="2024-02-13T23:12:58 EET" duration-ms="2500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filTheForm -->
+        <test-method is-config="true" signature="screenShotWhenTestFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc]" started-at="2024-02-13T23:12:58 EET" name="screenShotWhenTestFailure" finished-at="2024-02-13T23:12:58 EET" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=filTheForm status=SUCCESS method=RegisteredUserCheckoutProductTest.filTheForm()[pri:4, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotWhenTestFailure -->
+        <test-method signature="confirmOrderTest()[pri:5, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc]" started-at="2024-02-13T23:12:58 EET" name="confirmOrderTest" finished-at="2024-02-13T23:13:02 EET" duration-ms="4168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmOrderTest -->
+        <test-method is-config="true" signature="screenShotWhenTestFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc]" started-at="2024-02-13T23:13:02 EET" name="screenShotWhenTestFailure" finished-at="2024-02-13T23:13:02 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=confirmOrderTest status=SUCCESS method=RegisteredUserCheckoutProductTest.confirmOrderTest()[pri:5, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotWhenTestFailure -->
+        <test-method signature="userlogout()[pri:6, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc]" started-at="2024-02-13T23:13:02 EET" name="userlogout" finished-at="2024-02-13T23:13:07 EET" duration-ms="4323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userlogout -->
+        <test-method is-config="true" signature="screenShotWhenTestFailure(org.testng.ITestResult)[pri:0, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc]" started-at="2024-02-13T23:13:07 EET" name="screenShotWhenTestFailure" finished-at="2024-02-13T23:13:07 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userlogout status=SUCCESS method=RegisteredUserCheckoutProductTest.userlogout()[pri:6, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShotWhenTestFailure -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc]" started-at="2024-02-13T23:13:07 EET" name="tearDownClass" finished-at="2024-02-13T23:13:07 EET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:tests.RegisteredUserCheckoutProductTest@1573f9fc]" started-at="2024-02-13T23:13:07 EET" name="stopBrowser" finished-at="2024-02-13T23:13:07 EET" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- tests.RegisteredUserCheckoutProductTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
