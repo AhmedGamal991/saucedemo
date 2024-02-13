@@ -1,5 +1,7 @@
 # Selenium Framework project ( Saucedemo website )
+
 using Java, maven, TestNG, and POM Design Patterns
+
 Test Automation framework for: https://www.saucedemo.com/
 
 # Teck Stack
