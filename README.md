@@ -1,9 +1,7 @@
 # First Task
 Selenium Framework project ( Saucedemo website )
 using Java, maven, TestNG, and POM Design Patterns
-
 Test Automation framework for: https://www.saucedemo.com/
-
 # Teck Stack
 Java 19.0        As a programming language
 
@@ -14,8 +12,6 @@ maven            As a management tool
 TestNG 7.9       As a test runer tool
 
 POM              As a Design pattern
- 
-
 # Seconed Task
 End2End Scenario using Cucumber and gherkins 
 The Task Page exists in path "src\test\java\features"
