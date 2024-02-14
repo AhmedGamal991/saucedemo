@@ -14,4 +14,4 @@ TestNG 7.9       As a test runer tool
 POM              As a Design pattern
 # Seconed Task
 End2End Scenario using Cucumber and gherkins 
-The Task Page exists in path "src\test\java\features"
+The Task Page exists in path "src/test/java/features/End2End_Tests.feature"
