@@ -1,6 +1,6 @@
 # First Task
 Selenium Framework project ( Saucedemo website )
-using Java, maven, TestNG, and POM Design Patterns
+using Java, maven, TestNG, EClips, and POM Design Patterns
 Test Automation framework for: https://www.saucedemo.com/
 # Teck Stack
 Java 19.0        As a programming language
